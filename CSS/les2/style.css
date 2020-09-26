@@ -1,0 +1,6 @@
+.links > div > a{
+color: crimson;
+}
+[href^="https://twitter.com/"]{
+    background-color: cyan;
+}

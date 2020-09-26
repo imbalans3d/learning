@@ -1,0 +1,36 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(255, 235, 235);
+}
+.block{
+    height: 50px;
+    width: 250px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 40px;
+    color: cornsilk;
+    background-color: black;
+    transition: 1.3s;
+}
+.link{
+    font-size: 60px;
+}
+.input{
+    font-size: 30px;
+    height: 40px;
+    width: 250;
+}
+.block:hover{
+    background-color: chartreuse;
+    cursor: pointer;
+}
+.link:hover{
+    color: cornflowerblue;
+}
+.link:active{
+    color: black;
+}
